@@ -6,7 +6,9 @@ import { Message } from '../shared/models/message.model';
   providedIn: 'root',
 })
 export class ChatDataService {
-  constructor(private store: Store) {}
+  constructor(private store: Store) {
+
+  }
 
   public setLocalStorageForAllChat(
     chatName: string,
