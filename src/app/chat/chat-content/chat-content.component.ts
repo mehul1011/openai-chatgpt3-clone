@@ -23,15 +23,14 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./chat-content.component.css'],
 })
 export class ChatContentComponent
-  implements OnInit, AfterViewChecked, AfterViewInit
-{
+  implements OnInit, AfterViewChecked, AfterViewInit {
   constructor(
     private chatService: ChatService,
     private markdownService: MarkdownService,
     private chatDataService: ChatDataService,
     private store: Store<LocalStorageState>,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   @ViewChild('window') window!: any;
   messages: Message[] = [];
