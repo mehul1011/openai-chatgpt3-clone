@@ -4,7 +4,6 @@ import { ChatDataService } from './chat-data.service';
 
 describe('ChatDataService', () => {
   let service: ChatDataService;
-
   beforeEach(() => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(ChatDataService);
