@@ -136,6 +136,7 @@ export class ChatContentComponent
 
   scrollToBottom() {
     window.scrollTo(0, document.body.scrollHeight);
+
   }
 
   fetchFocusedChatConversation(uuid: string) {
